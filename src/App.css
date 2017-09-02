@@ -1,26 +1,24 @@
-* {
+#skin {
   background-color: #E5E1DB;
+  position:relative;
 }
 
-img {
-  width: 110px;
-  position:relative;
-  left:260px;
+#logo {
+  width: 120px;
+  position:absolute;
+  left:250px;
   top:10px;
 }
 
 nav {
-  font-size:100%;
-  /*display:inline-block;*/
-  vertical-align:top;
-  /*margin-left: 10px;*/
-  position: relative;
-  left:480px;
-  top:-50px;
-  margin:auto;
+  font-size:90%;
+  margin-left:420px;
+  margin-top:70px;
+  position:absolute;
   color:#911A28;
-  /*background-size: contain;*/
   font-family: Georgia;
+  font-weight: bold;
+
 }
 
 #home {
