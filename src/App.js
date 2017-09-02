@@ -3,21 +3,21 @@ import './App.css';
 import Header from './components/header'
 
 class App extends Component {
-  constructor (){
-    super();
+  constructor () {
+    super()
     this.state = {
-      currentPage: 'index',
+      currentPage: 'index'
     }
   }
-  render() {
+  render () {
     if (this.state.currentPage === 'index') {
       return (
-        <div className="App">
+        <div className='App'>
           <Header />
           </div>
-      );
+      )
     }
   }
 }
 
-export default App;
+export default App
