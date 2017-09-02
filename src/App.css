@@ -5,6 +5,69 @@
 img {
   width: 110px;
   position:relative;
-  left:210px;
+  left:260px;
   top:10px;
+}
+
+nav {
+  font-size:100%;
+  /*display:inline-block;*/
+  vertical-align:top;
+  /*margin-left: 10px;*/
+  position: relative;
+  left:480px;
+  top:-50px;
+  margin:auto;
+  color:#911A28;
+  /*background-size: contain;*/
+  font-family: Georgia;
+}
+
+#home {
+  display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	vertical-align:middle;
+}
+
+#hotel {
+  display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	vertical-align:middle;
+}
+
+#dining {
+  display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	vertical-align:middle;
+}
+
+#activities {
+  display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	vertical-align:middle;
+}
+
+#gallery {
+  display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	vertical-align:middle;
+}
+
+#testimonials {
+  display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	vertical-align:middle;
+}
+
+#contact {
+  display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	vertical-align:middle;
 }

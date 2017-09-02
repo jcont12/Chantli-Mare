@@ -3,12 +3,20 @@ import './App.css';
 import Header from './components/header'
 
 class App extends Component {
+  constructor (){
+    super();
+    this.state = {
+      currentPage: 'index',
+    }
+  }
   render() {
-    return (
-      <div className="App">
-        <Header />
-      </div>
-    );
+    if (this.state.currentPage === 'index') {
+      return (
+        <div className="App">
+          <Header />
+          </div>
+      );
+    }
   }
 }
 
