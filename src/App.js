@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header'
+import CoverImage from './components/cover_image'
 
 class App extends Component {
   constructor () {
@@ -14,6 +15,7 @@ class App extends Component {
       return (
         <div className='App'>
           <Header />
+          <CoverImage />
           </div>
       )
     }
