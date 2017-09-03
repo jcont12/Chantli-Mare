@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/header'
-import CoverImage from './components/cover_image'
+import Header from './components/headerComponents/header'
+import CoverImage from './components/headerComponents/coverImage'
+import Home from './components/pages/home'
 
 class App extends Component {
   constructor () {
