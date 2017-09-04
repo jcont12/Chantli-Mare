@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import '../../App.css';
+import {
+  Link
+} from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -7,13 +10,13 @@ class Header extends Component {
         <header>
           <nav className='menu options'>
             <img id='logo' src={require('../../images/logo.png')} alt='Chantli-Mare-logo' />
-            <p className='nav-options'> HOME </p>
-            <p className='nav-options'> HOTEL </p>
-            <p className='nav-options'> DINING </p>
-            <p className='nav-options'> ACTIVITIES </p>
-            <p className='nav-options'> GALLERY </p>
-            <p className='nav-options'> TESTIMONIALS </p>
-            <p className='nav-options'> CONTACT </p>
+            <Link to='/' className='nav-options' onClick={() => this.setState('index')}> HOME </Link>
+            <Link to='/Hotel' className='nav-options' onClick={() => this.setState('hotel')}> HOTEL </Link>
+            <Link to='/Dining' className='nav-options' onClick={() => this.setState('dining')}> DINING </Link>
+            <Link to='/Activities' className='nav-options' onClick={() => this.setState('activities')}> ACTIVITIES </Link>
+            <Link to='/Gallery' className='nav-options' onClick={() => this.setState('gallery')}> GALLERY </Link>
+            <Link to='/Testimonials' className='nav-options' onClick={() => this.setState('testimonials')}> TESTIMONIALS </Link>
+            <Link to='/Contact' className='nav-options' onClick={() => this.setState('contact')}  > CONTACT </Link>
           </nav>
         </header>
       );

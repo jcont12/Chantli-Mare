@@ -13,10 +13,6 @@ nav {
   position:relative;
   width:70%;
   margin-top: 40px;
-  color:#911A28;
-  font-family: Georgia;
-  font-weight: bold;
-
 }
 
 #logo {
@@ -26,11 +22,15 @@ nav {
 }
 
 .nav-options {
+  text-decoration: none;
   display: inline-block;
 	margin-left: 15px;
 	margin-right: 15px;
   margin-bottom: 90px;
 	vertical-align:middle;
+  color:#911A28;
+  font-family: Georgia;
+  font-weight: bold;
 }
 
 .crop {

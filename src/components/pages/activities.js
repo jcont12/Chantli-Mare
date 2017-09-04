@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../../App.css';
 
-class Home extends Component {
+class Activities extends Component {
   render() {
       return (
-        <div className='home'>
-          Hooome
+        <div className='activities'>
+          Activitiees
         </div>
       );
     }
 }
 
-export default Home;
+export default Activities;

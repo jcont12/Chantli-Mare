@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../App.css';
 
+
 class CoverImage extends Component {
   constructor () {
     super()
