@@ -13,8 +13,8 @@ class CoverImage extends Component {
     this.handleDining = this.handleDining.bind(this);
     this.handleActivities = this.handleActivities.bind(this);
     this.handleGallery = this.handleGallery.bind(this);
-    this.handleTestimonials = this.handleTestimonials.bind(this)
-    this.handleContact = this.handleContact.bind(this)
+    this.handleTestimonials = this.handleTestimonials.bind(this);
+    this.handleContact = this.handleContact.bind(this);
   }
 
   handleIndex() {
@@ -24,7 +24,9 @@ class CoverImage extends Component {
   }
 
   handleHotel() {
-    console.log(this.state.pageImage)
+    this.setState({
+      pageImage: 'hotel'
+    });
   }
 
   handleDining() {
@@ -61,7 +63,7 @@ class CoverImage extends Component {
     if (this.state.pageImage === 'index') {
       return (
         <div>
-          <Header triggerHome={this.handleIndex} triggeHotel={this.handleHotel} triggerDining={this.handleDining}/>
+          <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className='crop'>
             <img className='cover' src={require('../../images/Chantli_Front_View.jpg')} alt='Hotel-Front-View' />
           </div>
@@ -70,8 +72,8 @@ class CoverImage extends Component {
     } else if (this.state.pageImage === 'hotel') {
       return(
         <div>
-          <Header triggeHotel={this.handleHotel}/>
-          <div className='crop'>
+          <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
+         <div className='crop'>
             <img className='cover' src={require('../../images/Stay_with_us.jpg')} alt='Hotel-View' />
           </div>
         </div>
@@ -79,7 +81,7 @@ class CoverImage extends Component {
     } else if (this.state.pageImage === 'dining') {
       return(
         <div>
-          <Header triggerDining={this.handleDining} />
+          <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className='crop'>
             <img className='cover' src={require('../../images/Every_day_a_Feast.jpg')} alt='Tables-set-for-dinner' />
           </div>
@@ -88,7 +90,7 @@ class CoverImage extends Component {
     } else if (this.state.pageImage === 'activities') {
       return(
         <div>
-          <Header triggerActivities={this.handleActivities} />
+          <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className='crop'>
             <img className='cover' src={require('../../images/activities.jpg')} alt='Sea-and-boat' />
           </div>
@@ -97,7 +99,7 @@ class CoverImage extends Component {
     } else if (this.state.pageImage === 'gallery') {
       return(
         <div>
-          <Header triggerGallery={this.handleGallery}/>
+          <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className='crop'>
             <img className='cover' src={require('../../images/Palmar.jpg')} alt='Palm-trees' />
           </div>
@@ -106,7 +108,7 @@ class CoverImage extends Component {
     } else if (this.state.pageImage === 'testimonials') {
       return(
         <div>
-          <Header triggerTestimonials={this.handleTestimonials}/>
+          <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className='crop'>
             <img className='cover' src={require('../../images/Boutique.jpg')} alt='Palm-trees' />
           </div>
@@ -115,7 +117,7 @@ class CoverImage extends Component {
     } else if (this.state.pageImage === 'contact') {
       return(
         <div>
-          <Header triggerContact={this.handleContact} />
+          <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className='crop'>
             <img className='cover' src={require('../../images/Flowers.jpg')} alt='Palm-trees' />
           </div>
