@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import Greg from './dining/greg';
-import Menu from './dining/menu';
+import Greg from './diningComponents/greg';
+import Menu from './diningComponents/menu';
 
 class Dining extends Component {
   render() {

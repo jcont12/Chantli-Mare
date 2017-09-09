@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import HotelHistory from './hotel/hotelHistory';
-import HotelAmenities from './hotel/hotelAmenities';
-import HotelAccomodations from './hotel/hotelAccomodations'
+import HotelHistory from './hotelComponents/hotelHistory';
+import HotelAmenities from './hotelComponents/hotelAmenities';
+import HotelAccomodations from './hotelComponents/hotelAccomodations'
 
 class Hotel extends Component {
   render() {

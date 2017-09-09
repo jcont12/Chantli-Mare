@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import BlockLeft from './home/blockLeft';
-import BlockCenter from './home/blockCenter';
-import BlockRight from './home/blockRight';
-import HomeGallery from './home/gallery';
+import BlockLeft from './homeComponents/blockLeft';
+import BlockCenter from './homeComponents/blockCenter';
+import BlockRight from './homeComponents/blockRight';
+import HomeGallery from './homeComponents/gallery';
 
 class Home extends Component {
   render() {
