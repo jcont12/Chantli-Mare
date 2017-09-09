@@ -3,6 +3,7 @@ import '../../App.css';
 import BlockLeft from './home/blockLeft';
 import BlockCenter from './home/blockCenter';
 import BlockRight from './home/blockRight';
+import HomeGallery from './home/gallery';
 
 class Home extends Component {
   render() {
@@ -12,7 +13,7 @@ class Home extends Component {
           <BlockLeft />
           <BlockCenter />
           <BlockRight />
-
+          <HomeGallery />
         </div>
       );
     }
