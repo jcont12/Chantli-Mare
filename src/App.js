@@ -8,7 +8,7 @@ import Dining from './components/pages/dining'
 import Activities from './components/pages/activities'
 import Gallery from './components/pages/gallery'
 import Testimonials from './components/pages/testimonials'
-import Contacts from './components/pages/contacts'
+import Contact from './components/pages/contact'
 import {
   BrowserRouter as Router,
   Route,
@@ -34,7 +34,7 @@ class App extends Component {
           <Route exact path='/Activities' component={Activities} />
           <Route exact path='/Gallery' component={Gallery} />
           <Route exact path='/Testimonials' component={Testimonials} />
-          <Route exact path='/Contacts' component={Contacts} />
+          <Route exact path='/Contact' component={Contact} />
           </div>
         </Router>
       )
