@@ -2,18 +2,10 @@ import React, { Component } from 'react';
 import '../../../App.css';
 
 class Menu extends Component{
-  constructor() {
-    super()
-      this.state = {
-        menu: 'dinner'
-      };
-    }
-
   render(){
-    if (this.state.menu === 'dinner'){
     return(
       <div className='dining-menu'>
-        <h3>'Dinner'</h3><h3>'Lunch'</h3>
+        <h1>'Dinner'</h1>
         <h4>'Entrees'</h4>
         <table>
           <tr>
@@ -80,12 +72,8 @@ class Menu extends Component{
             <td class="meal">'Banana Foster au Rum'</td>
           </tr>
         </table>
-      </div>
-    )
-  } else {
-      return(
-        <div className='dining-menu'>
-        Lunch
+
+        <h1>Lunch</h1>
         <table>
           <tr>
             <td class="meal">'Mediterranean Tomato and Seafood Soup'</td>
@@ -147,7 +135,6 @@ class Menu extends Component{
         </table>
       </div>
       )
-    }
   }
 }
 
