@@ -7,7 +7,7 @@ class Activities extends Component {
   render() {
       return (
         <div className='activities'>
-          <h1>'Kick back and relax or have fun in the sun - endless opportunities for enjoyment to be found.'</h1>
+          <h1>Kick back and relax or have fun in the sun - endless opportunities for enjoyment to be found.</h1>
           <OnLand />
           <AtSea />
         </div>
