@@ -32,6 +32,7 @@ nav {
   font-weight: bold;
 }
 
+
 .crop {
   height: 400px;
   width: 100%;
@@ -54,6 +55,17 @@ h1 {
   text-align: center;
 }
 
+
+h3 {
+  font-weight: 400;
+  font-family: Georgia,serif;
+  color: #911A28;
+  font-size: 30px;
+}
+
+
+/*Home page styling*/
+
 .home-blocks {
     width:100%;
     text-align: center;
@@ -63,31 +75,17 @@ div .home-block-left,.home-block-center, .home-block-right {
   width: 400px;
   display:inline-block;
   margin: 20px 30px;
-  text-justify: auto;
+  text-align: justify;
   font-family: proxima-nova;
   line-height: 25px;
   font-size: 18px;
 }
-
-/*div .home-block-left {
-  margin-right: 40px;
-}
-
-div .home-block-right {
-  margin-right: 40px;
-}*/
 
 .home-block-img {
   width: 400px;
   height: 250px;
 }
 
-h3 {
-  font-weight: 400;
-  font-family: Georgia,serif;
-  color: #911A28;
-  font-size: 30px;
-}
 
 div .home-gallery{
   font-family: proxima-nova;
@@ -99,6 +97,7 @@ div .home-gallery{
 
 div #home-gallery-intro{
   margin-right: 60px;
+  margin-bottom: 50px;
   width: 20%;
   display: inline-block;
 }
@@ -107,4 +106,35 @@ div #home-gallery-img{
   width: 500px;
   display:inline-block;
   vertical-align:bottom;
+}
+
+/*Hotel Page Styling*/
+
+div .hotel{
+  font-family: proxima-nova;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+div .hotel-history{
+  position: relative;
+  text-align: center;
+  width:100%;
+  margin-bottom: 70px;
+}
+
+div #hotel-history-p{
+  display:inline-block;
+  margin: auto;
+  text-align: justify;
+  width: 60%;
+  margin-bottom: 220px;
+  margin-left: 30px;
+}
+
+
+#hotel-history-img{
+  width: 400px;
+  display:inline-block;
+  vertical-align: bottom;
 }
