@@ -127,14 +127,34 @@ div #hotel-history-p{
   display:inline-block;
   margin: auto;
   text-align: justify;
-  width: 60%;
+  width: 40%;
   margin-bottom: 220px;
   margin-left: 30px;
 }
-
 
 #hotel-history-img{
   width: 400px;
   display:inline-block;
   vertical-align: bottom;
+}
+
+div .hotel-amenities{
+  text-align: center;
+  height: 900px;
+  width: 100%;
+  position:relative;
+  margin-bottom: 30px;
+}
+
+div #amenities-block-imgs {
+  width: 80%;
+  margin:auto;
+}
+
+
+.amenities-img {
+  display:inline-block;
+  width: 500px;
+  height:370px;
+  margin: 10px;
 }
