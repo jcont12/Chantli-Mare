@@ -151,10 +151,41 @@ div #amenities-block-imgs {
   margin:auto;
 }
 
-
 .amenities-img {
   display:inline-block;
   width: 500px;
   height:370px;
   margin: 10px;
+}
+
+div .hotel-accomodations{
+  position: relative;
+  text-align: center;
+}
+
+#hotel-accomodations-table{
+  border-spacing:40px;
+  margin:auto;
+  text-align: justify;
+}
+
+th{
+  text-align: center;
+  border-spacing: 10px;
+  font-weight: 400;
+  font-family: Georgia,serif;
+  color: #911A28;
+  font-size: 24px;
+}
+
+td {
+  padding-top: 0px;
+  margin: 50px;
+  width: 300px;
+  height:100px;
+}
+
+.td-image{
+  width: 300px;
+  height:300px;
 }
