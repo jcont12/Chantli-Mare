@@ -189,3 +189,79 @@ td {
   width: 300px;
   height:300px;
 }
+
+/*Dining Page Styling*/
+
+div .dining{
+  font-family: proxima-nova;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+div .dining-greg{
+  position: relative;
+  text-align: center;
+  width:100%;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+#dining-greg-img{
+  width: 400px;
+  display:inline-block;
+  vertical-align: bottom;
+}
+
+div #dining-greg-p{
+  display:inline-block;
+  margin: auto;
+  text-align: justify;
+  width: 40%;
+  margin-bottom: 220px;
+  margin-left: 30px;
+}
+
+div #dining-menu-dinner{
+  border: solid black 1px;
+}
+
+div #dining-menu-lunch{
+  border: solid black 1px;
+}
+
+h4 {
+    font-family: georgia;
+    font-size:20px;
+    color: #6d141e;
+    text-align:center;
+}
+
+.dining-table{
+  border-spacing:0px;
+  margin:auto;
+  text-align: justify;
+  vertical-align: top;
+}
+
+
+.dining-dinner-tr{
+  border: black solid 1px;
+}
+
+.dining-menus-td-price{
+  width:90px;
+  padding:0px;
+  height:20px;
+}
+
+.dining-menus-td-description{
+    vertical-align: top;
+}
+
+.dining-menu-meal{
+  font-weight: bold;
+  height:50px;
+  padding:0;
+  margin:0;
+
+}
