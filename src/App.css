@@ -265,3 +265,43 @@ h4 {
   margin:0;
 
 }
+
+/* Activities page styling*/
+
+
+div .activities-onLand{
+  position: relative;
+  text-align: center;
+  width:70%;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  height: 600px;
+}
+
+div .activities-atSea{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+#activities-img{
+  width: 200px;
+  display:inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+div #activities-p{
+  display:inline-block;
+  margin: auto;
+  text-align: justify;
+  width: 40%;
+  margin-bottom: 220px;
+  margin-left: 30px;
+  font-family: proxima-nova;
+  font-size: 18px;
+  line-height: 25px;
+}
