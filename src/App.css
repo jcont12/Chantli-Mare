@@ -272,25 +272,24 @@ h4 {
 div .activities-onLand{
   position: relative;
   text-align: center;
-  width:70%;
-  margin-bottom: 70px;
+  width:100%;
   margin-top: 50px;
-  height: 600px;
+  height: 500px;
 }
 
 div .activities-atSea{
   position: relative;
   text-align: center;
-  width: 100%;
-  margin-bottom: 70px;
+  width:100%;
   margin-top: 50px;
+  height: 500px;
 }
 
 #activities-img{
   width: 200px;
   display:inline-block;
   vertical-align: top;
-  margin-left: 40px;
+  margin-left: 60px;
   margin-right: 40px;
 }
 
