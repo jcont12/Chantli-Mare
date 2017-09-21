@@ -304,3 +304,16 @@ div #activities-p{
   font-size: 18px;
   line-height: 25px;
 }
+
+/* Gallery page styling*/
+
+.gallery{
+  text-align: center;
+}
+
+.gallery-img{
+  width: 400px;
+  height: 300px;
+  display:inline-block;
+  margin: 30px;
+}
