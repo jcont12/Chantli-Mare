@@ -169,7 +169,7 @@ div .hotel-accomodations{
   text-align: justify;
 }
 
-th{
+.hotel-accomodations-th{
   text-align: center;
   border-spacing: 10px;
   font-weight: 400;
@@ -178,7 +178,7 @@ th{
   font-size: 24px;
 }
 
-td {
+.hotel-accomodations-td {
   padding-top: 0px;
   margin: 50px;
   width: 300px;
@@ -316,4 +316,38 @@ div #activities-p{
   height: 300px;
   display:inline-block;
   margin: 30px;
+}
+
+/* Testimonials page styling*/
+
+.testimonials{
+  font-family: proxima-nova;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.testimonials-reviews{
+  width: 80%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+#testimonials-reviews-table{
+  margin-top: 50px;
+}
+
+
+.testimonials-reviews-td-testimonial{
+
+  vertical-align: bottom;
+  padding: 0px 50px 20px 50px;
+  width: 1000px;
+}
+
+.testimonials-reviews-td-author{
+  vertical-align: top;
+  padding:0px 50px 40px 50px;
+  width: 1000px;
+  color:#6d141e
 }
