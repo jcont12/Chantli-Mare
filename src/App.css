@@ -351,3 +351,51 @@ div #activities-p{
   width: 1000px;
   color:#6d141e
 }
+
+/*Contact Form Styling*/
+
+.contact{
+  font-style: proxima nova;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.contact-form{
+  text-align: center;
+  margin-bottom: 50px;
+  width:60%;
+  display:inline-block;
+}
+
+label{
+  display:block;
+}
+
+input{
+  margin:auto;
+  display:block;
+  width:250px;
+  height:30px;
+  margin-bottom:20px;
+}
+
+#message{
+width: 600px;
+height:200px;
+
+}
+
+.contact-info{
+  width: 25%;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.contact-map{
+  text-align: center;
+}
+
+.directions{
+  width:80%;
+  margin:auto;
+}

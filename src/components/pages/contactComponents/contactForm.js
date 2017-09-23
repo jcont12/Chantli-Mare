@@ -13,7 +13,7 @@ class ContactForm extends Component {
           <label>E-mail</label>
           <input type='email' name='email address'/>
           <label>Message</label>
-          <input type='text' name='message'/>
+          <input id='message' type='text' name='message'/>
           <input type='submit' value='Submit!'/>
         </form>
       </div>

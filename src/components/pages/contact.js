@@ -9,6 +9,7 @@ class Contact extends Component {
   render() {
       return (
         <div className='contact'>
+        <h1> Getting in Touch </h1>
           <ContactForm />
           <ContactInfo />
           <ContactMap />
