@@ -42,7 +42,7 @@ nav {
 }
 
 .crop {
-  height: 400px;
+  height: 30em;
   width: 100%;
   overflow: hidden;
   position:relative;
@@ -50,6 +50,39 @@ nav {
 
 .crop img {
   width: 100%;
+  position: absolute;
+  top:50%;
+}
+
+.home-cover {
+  margin-top: -47em;
+}
+
+.hotel-cover {
+  height:60em;
+  margin-top: -32em;
+}
+
+.dining-cover {
+  margin-top: -30em;
+}
+
+.activities-cover {
+  margin-top: -66em;
+}
+
+.gallery-cover {
+  margin-top: -50em;
+}
+
+.testimonials-cover {
+  height:50em;
+  margin-top: -14em;
+}
+
+.contact-cover {
+  height:50em;
+  margin-top: -25em;
 }
 
 h1 {
