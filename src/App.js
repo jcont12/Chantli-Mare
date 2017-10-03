@@ -26,7 +26,7 @@ class App extends Component {
     if (this.state.currentPage === 'index') {
       return (
         <Router>
-        <div className='App'>
+        <div id='App'>
           <CoverImage />
           <Route exact path='/' component={Home} />
           <Route exact path='/Hotel' component={Hotel} />

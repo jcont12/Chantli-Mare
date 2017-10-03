@@ -5,7 +5,7 @@ import Pictures from './galleryComponents/pictures'
 class Gallery extends Component {
   render() {
       return (
-        <div className='gallery'>
+        <div id="gallery">
           <Pictures />
         </div>
       );

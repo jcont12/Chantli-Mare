@@ -4,13 +4,13 @@ import '../../../App.css';
 class HotelAmenities extends Component {
   render() {
     return (
-      <div className='hotel-amenities'>
+      <div id="hotel-amenities">
       <h3> Amenities </h3>
-        <div id='amenities-block-imgs'>
-          <img className='amenities-img' src={require('../../../images/Flowers.jpg')} />
-          <img className='amenities-img' src={require('../../../images/Food1.jpg')} />
-          <img className='amenities-img' src={require('../../../images/Food2.jpg')} />
-          <img className='amenities-img' src={require('../../../images/Food3.jpg')} />
+        <div id="amenities-block-imgs">
+          <img className="amenities-img" src={require("../../../images/amenities1.jpg")} />
+          <img className="amenities-img" src={require("../../../images/amenities2.jpg")} />
+          <img className="amenities-img" src={require("../../../images/amenities3.jpg")} />
+          <img className="amenities-img" src={require("../../../images/amenities4.jpg")} />
         </div>
       </div>
     )

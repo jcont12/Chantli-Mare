@@ -7,7 +7,7 @@ import HotelAccomodations from './hotelComponents/hotelAccomodations'
 class Hotel extends Component {
   render() {
       return (
-        <div className='hotel'>
+        <div id="hotel">
           <HotelHistory />
           <HotelAmenities />
           <HotelAccomodations />

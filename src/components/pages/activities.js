@@ -6,7 +6,7 @@ import AtSea from './activitiesComponents/atSea';
 class Activities extends Component {
   render() {
       return (
-        <div className='activities'>
+        <div id="activities">
           <h1>Kick back and relax or have fun in the sun - endless opportunities for enjoyment to be found.</h1>
           <OnLand />
           <AtSea />

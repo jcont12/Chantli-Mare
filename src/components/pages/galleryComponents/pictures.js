@@ -4,14 +4,14 @@ import '../../../App.css'
 class Pictures extends Component {
   render() {
     return(
-      <div className='gallery-pictures'>
-        <img className='gallery-img' src={require('../../../images/Frontview2.jpg')} />
-        <img className='gallery-img' src={require('../../../images/nightview.jpg')} />
-        <img className='gallery-img' src={require('../../../images/monita.jpg')} />
-        <img className='gallery-img' src={require('../../../images/Palmar.jpg')} />
-        <img className='gallery-img' src={require('../../../images/Poolview.jpg')} />
-        <img className='gallery-img' src={require('../../../images/Sunset1.jpg')} />
-        <img className='gallery-img' src={require('../../../images/Sunset2.jpg')} />
+      <div id="gallery-pictures">
+        <img className="gallery-img" src={require("../../../images/Frontview2.jpg")} />
+        <img className="gallery-img" src={require("../../../images/nightview.jpg")} />
+        <img className="gallery-img" src={require("../../../images/monita.jpg")} />
+        <img className="gallery-img" src={require("../../../images/Palmar.jpg")} />
+        <img className="gallery-img" src={require("../../../images/Poolview.jpg")} />
+        <img className="gallery-img" src={require("../../../images/Sunset1.jpg")} />
+        <img className="gallery-img" src={require("../../../images/Sunset2.jpg")} />
       </div>
     )
   }

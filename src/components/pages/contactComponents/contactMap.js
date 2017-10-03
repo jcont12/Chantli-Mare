@@ -4,7 +4,7 @@ import '../../../App.css';
 class ContactMap extends Component {
   render() {
     return (
-      <div className='contact-map'>
+      <div id="contact-map">
       <iframe
         width="600"
         height="450"

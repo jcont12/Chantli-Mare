@@ -5,7 +5,7 @@ import CustomerReviews from './testimonialsComponents/customerReviews';
 class Testimonials extends Component {
   render() {
       return (
-        <div className='testimonials'>
+        <div id="testimonials">
           <h1> See what our guests are sharing about their stay!</h1>
           <CustomerReviews />
         </div>

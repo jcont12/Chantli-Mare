@@ -8,7 +8,7 @@ import Directions from './contactComponents/directions';
 class Contact extends Component {
   render() {
       return (
-        <div className='contact'>
+        <div id="contact">
         <h1> Getting in Touch </h1>
           <ContactForm />
           <ContactInfo />
