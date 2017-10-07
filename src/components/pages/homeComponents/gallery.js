@@ -12,6 +12,7 @@ class HomeGallery extends Component {
           <Link to="/Gallery" className="nav-options"> Our Photos > </Link>
         </div>
         <img id="home-gallery-img" src={require("../../../images/nightview2.jpg")} />
+        <div id="juicebox-container"></div>
         </div>
     )
   }

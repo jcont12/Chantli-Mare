@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	indexPageName="embed.html"
+
+>
+  <image imageURL="images/background2.jpg"
+	thumbURL="thumbs/background2.jpg"
+	linkURL="images/background2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jcont\Desktop\Portfolio\src\images\background2.jpg">
+    <title><![CDATA[background2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/professional.jpg"
+	thumbURL="thumbs/professional.jpg"
+	linkURL="images/professional.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jcont\Desktop\Portfolio\src\images\professional.jpg">
+    <title><![CDATA[professional]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/profile.jpg"
+	thumbURL="thumbs/profile.jpg"
+	linkURL="images/profile.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\jcont\Desktop\Portfolio\src\images\profile.jpg">
+    <title><![CDATA[profile]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
