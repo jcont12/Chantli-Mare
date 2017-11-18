@@ -59,6 +59,7 @@ nav {
 }
 
 .hotel-cover {
+  filter: blur(0.3px);
   height:60em;
   margin-top: -32em;
 }
