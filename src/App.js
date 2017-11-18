@@ -16,14 +16,7 @@ import {
 } from 'react-router-dom';
 
 class App extends Component {
-  constructor () {
-    super()
-    this.state = {
-      currentPage: 'index'
-    }
-  }
   render () {
-    if (this.state.currentPage === 'index') {
       return (
         <Router>
         <div id='App'>
@@ -40,6 +33,5 @@ class App extends Component {
       )
     }
   }
-}
 
 export default App
