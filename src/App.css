@@ -54,8 +54,16 @@ nav {
   top:50%;
 }
 
+.cover-title{
+  font-size: 36px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .home-cover {
-  margin-top: -47em;
+  margin-top: -45.5em;
 }
 
 .hotel-cover {
@@ -84,10 +92,17 @@ nav {
   margin-top: -35em;
 }
 
+.h1-container{
+    background-color: #630404;
+    margin: 5px auto 0px;
+    padding:5px;
+
+}
+
 h1 {
   font-family: Georgia,serif;
-  color: #6d141e;
-  font-size: 36px;
+  color: white;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5em;
@@ -119,6 +134,7 @@ div #home-block-left,#home-block-center, #home-block-right {
   margin: 20px 30px;
   text-align: justify;
   font-family: proxima-nova;
+  font-weight: lighter;
   line-height: 25px;
   font-size: 18px;
 }
@@ -131,6 +147,7 @@ div #home-block-left,#home-block-center, #home-block-right {
 
 div #home-gallery{
   font-family: proxima-nova;
+  font-weight: lighter;
   font-size: 18px;
   width: 100%;
   position:relative;
@@ -154,6 +171,7 @@ div #juicebox-container{
 
 div #hotel{
   font-family: proxima-nova;
+  font-weight: lighter;
   font-size: 18px;
   line-height: 25px;
 }
@@ -236,8 +254,15 @@ div #hotel-accomodations{
 
 div #dining{
   font-family: proxima-nova;
+  font-weight: lighter;
   font-size: 18px;
   line-height: 25px;
+}
+
+div #dining-menu-background{
+  width:80%;
+  margin:auto;
+  background-color: white;
 }
 
 div #dining-greg{
@@ -281,8 +306,10 @@ h4 {
 .dining-table{
   border-spacing:0px;
   margin:auto;
+  width:80%;
   text-align: justify;
   vertical-align: top;
+  border: black solid 1px;
 }
 
 
@@ -291,6 +318,7 @@ h4 {
 }
 
 .dining-menus-td-price{
+  border: black solid 1px;
   width:90px;
   padding:0px;
   height:20px;
@@ -298,6 +326,7 @@ h4 {
 
 .dining-menus-td-description{
     vertical-align: top;
+    border: black solid 1px;
 }
 
 .dining-menu-meal{
@@ -323,7 +352,6 @@ div #activities-atSea{
   position: relative;
   text-align: center;
   width:100%;
-  margin-top: 50px;
   height: 500px;
 }
 
@@ -343,6 +371,7 @@ div #activities-p{
   margin-bottom: 220px;
   margin-left: 30px;
   font-family: proxima-nova;
+  font-weight: lighter;
   font-size: 18px;
   line-height: 25px;
 }
@@ -364,6 +393,7 @@ div #activities-p{
 
 #testimonials{
   font-family: proxima-nova;
+  font-weight: lighter;
   font-size: 18px;
   line-height: 25px;
 }
@@ -397,7 +427,8 @@ div #activities-p{
 /*Contact Form Styling*/
 
 #contact{
-  font-style: proxima nova;
+  font-family: proxima nova;
+  font-weight: lighter;
   font-size: 18px;
   line-height: 25px;
 }

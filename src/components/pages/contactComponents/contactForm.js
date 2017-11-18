@@ -5,6 +5,7 @@ class ContactForm extends Component {
   render() {
     return(
       <div id="contact-form" action="https://formspree.io/jorgeacontrerasl@gmail.com" method="POST">
+        <h3> Getting in Touch </h3>
         <form>
           <label> First Name: </label>
           <input type="text" name="First Name"/>

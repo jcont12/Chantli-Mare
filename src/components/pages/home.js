@@ -9,7 +9,9 @@ class Home extends Component {
   render() {
       return (
         <div id="home">
-          <h1> {"Experience a relaxing stay in one of Mexico's most beautiful coasts. Our intimate boutique hotel is the perfect refuge from your troubles"} </h1>
+          <div className="h1-container">
+            <h1> {"Experience a relaxing stay in one of Mexico's most beautiful coasts."} </h1>
+          </div>
           <div id="home-blocks">
           <BlockLeft />
           <BlockCenter />

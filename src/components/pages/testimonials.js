@@ -6,7 +6,9 @@ class Testimonials extends Component {
   render() {
       return (
         <div id="testimonials">
-          <h1> See what our guests are sharing about their stay!</h1>
+          <div className="h1-container">
+            <h1> See what our guests are sharing about their stay!</h1>
+          </div>  
           <CustomerReviews />
         </div>
       );

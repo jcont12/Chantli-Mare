@@ -18,9 +18,9 @@ class HotelAccomodations extends Component {
         	  <td className="hotel-accomodations-td"> Interior Room facing interior patio. King size bed (or 3 single beds upon request), TV, A/C. (1 Patio Room Available)</td>
         	</tr>
           <tr>
-            <td className="hotel-accomodations-td"> <img className="td-image" src={require("../../../images/Room1.jpg")} /></td>
+            <td className="hotel-accomodations-td"> <img className="td-image" src={require("../../../images/Room5.jpg")} /></td>
             <td className="hotel-accomodations-td"> <img className="td-image"src={require("../../../images/Room2.jpg")} /></td>
-            <td className="hotel-accomodations-td"> <img className="td-image"src={require("../../../images/Room3.jpg")} /></td>
+            <td className="hotel-accomodations-td"> <img className="td-image"src={require("../../../images/Room1.jpg")} /></td>
           </tr>
         </table>
       </div>

@@ -9,7 +9,9 @@ class Contact extends Component {
   render() {
       return (
         <div id="contact">
-        <h1> Getting in Touch </h1>
+        <div className="h1-container">
+          <h1> We would love to hear from you!</h1>
+        </div>
           <ContactForm />
           <ContactInfo />
           <ContactMap />

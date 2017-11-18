@@ -7,7 +7,9 @@ class Dining extends Component {
   render() {
       return (
         <div id="dining">
-        <h1> The freshest ingredients at the perfect locale - enjoy delicious beach-side feasts. </h1>
+          <div className="h1-container">
+            <h1> The freshest ingredients at the perfect locale - enjoy delicious beach-side feasts. </h1>
+          </div>
           <Greg />
           <Menu />
         </div>
