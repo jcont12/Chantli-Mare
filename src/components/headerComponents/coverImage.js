@@ -65,7 +65,7 @@ class CoverImage extends Component {
         <div>
           <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className="crop">
-            <img className="home-cover" src={require("../../images/Chantli_Front_View.jpg")} alt="Hotel-Front-View" />
+            <img className="home-cover" src={require("../../images/FrontView4.jpg")} alt="Hotel-Front-View" />
           </div>
         </div>
       );
@@ -83,7 +83,7 @@ class CoverImage extends Component {
         <div>
           <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className="crop">
-            <img className="dining-cover" src={require("../../images/Every_day_a_Feast.jpg")} alt="Tables-set-for-dinner" />
+            <img className="dining-cover" src={require("../../images/Feast1.jpg")} alt="Tables-set-for-dinner" />
           </div>
         </div>
       );
@@ -92,7 +92,7 @@ class CoverImage extends Component {
         <div>
           <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className="crop">
-            <img className="activities-cover" src={require("../../images/activities.jpg")} alt="Sea-and-boat" />
+            <img className="activities-cover" src={require("../../images/activity.jpg")} alt="Sea-and-boat" />
           </div>
         </div>
       );
@@ -101,7 +101,7 @@ class CoverImage extends Component {
         <div>
           <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className="crop">
-            <img className="gallery-cover" src={require("../../images/Palmar.jpg")} alt="Palm-trees" />
+            <img className="gallery-cover" src={require("../../images/Alejandro.jpg")} alt="Palm-trees" />
           </div>
         </div>
       );
@@ -119,7 +119,7 @@ class CoverImage extends Component {
         <div>
           <Header triggerHome={this.handleIndex} triggerHotel={this.handleHotel} triggerDining={this.handleDining} triggerActivities={this.handleActivities} triggerGallery={this.handleGallery} triggerTestimonials={this.handleTestimonials} triggerContact={this.handleContact}/>
           <div className="crop">
-            <img className="contact-cover" src={require("../../images/Flowers.jpg")} alt="Palm-trees" />
+            <img className="contact-cover" src={require("../../images/Touch.jpg")} alt="Palm-trees" />
           </div>
         </div>
     );

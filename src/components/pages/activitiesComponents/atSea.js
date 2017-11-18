@@ -13,7 +13,7 @@ class AtSea extends Component {
           <p><b>Fishing</b> Boat tours can take you for open ocean fishing</p>
           <p><b>Snorkeling and Scuba Diving</b> Enjoy trips to nearby reefs and islands.</p>
         </div>
-        <img id="activities-img" src={require("../../../images/Coconuts.jpg")}/>
+        <img id="activities-img" src={require("../../../images/activities.jpg")}/>
       </div>
     )
   }

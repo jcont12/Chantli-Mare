@@ -68,21 +68,19 @@ nav {
 }
 
 .activities-cover {
-  margin-top: -66em;
+  margin-top: -25em;
 }
 
 .gallery-cover {
-  margin-top: -50em;
+  margin-top: -25em;
 }
 
 .testimonials-cover {
-  height:50em;
-  margin-top: -14em;
+  margin-top: -18em;
 }
 
 .contact-cover {
-  height:50em;
-  margin-top: -25em;
+  margin-top: -35em;
 }
 
 h1 {
@@ -145,7 +143,7 @@ div #home-gallery-intro{
   display: inline-block;
 }
 
-div #home-gallery-img{
+div #juicebox-container{
   width: 500px;
   display:inline-block;
   vertical-align:bottom;
@@ -171,14 +169,14 @@ div #hotel-history-p{
   margin: auto;
   text-align: justify;
   width: 40%;
-  margin-bottom: 220px;
+  padding-top: 70px;
   margin-left: 30px;
 }
 
 #hotel-history-img{
   width: 400px;
   display:inline-block;
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 div #hotel-amenities{
