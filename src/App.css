@@ -111,6 +111,17 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: Georgia,serif;
+  color: #911A28;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  width:70%;
+  margin: auto;
+  text-align: center;
+}
 
 h3 {
   font-weight: 400;
@@ -259,12 +270,6 @@ div #dining{
   line-height: 25px;
 }
 
-div #dining-menu-background{
-  width:80%;
-  margin:auto;
-  background-color: white;
-}
-
 div #dining-greg{
   position: relative;
   text-align: center;
@@ -274,7 +279,7 @@ div #dining-greg{
 }
 
 #dining-greg-img{
-  width: 400px;
+  width: 18%;
   display:inline-block;
   vertical-align: bottom;
 }
@@ -282,18 +287,57 @@ div #dining-greg{
 div #dining-greg-p{
   display:inline-block;
   margin: auto;
-  text-align: justify;
+  line-height: 2em;
   width: 40%;
-  margin-bottom: 220px;
+  font-weight: lighter;
+  margin-bottom: 100px;
   margin-left: 30px;
+}
+
+div #dining-menu-background{
+  width:80%;
+  margin:auto;
+  background-color: white;
+}
+
+#background0{
+  position:relative;
+  margin:auto;
+  background-color:#ded9d9;
+  width:80%;
+  height: 800px;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.5)
+}
+
+#background1{
+  position:absolute;
+  background-color:white;
+  width:60%;
+  height:90%;
+  top: 5%;
+  left:52%;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.5)
+}
+
+#background2{
+  position:absolute;
+  background-color:white;
+  width:60%;
+  top:5%;
+  left:-10%;
+  height:90%;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.5)
+
 }
 
 div #dining-menu-dinner{
   border: solid black 1px;
+  height:100%;
 }
 
 div #dining-menu-lunch{
   border: solid black 1px;
+  height:100%;
 }
 
 h4 {
@@ -301,41 +345,40 @@ h4 {
     font-size:20px;
     color: #6d141e;
     text-align:center;
+    margin:15px;
 }
 
 .dining-table{
+  border: black solid 1px;
   border-spacing:0px;
   margin:auto;
-  width:80%;
+  width:95%;
   text-align: justify;
   vertical-align: top;
-  border: black solid 1px;
 }
-
 
 .dining-dinner-tr{
-  border: black solid 1px;
-}
-
-.dining-menus-td-price{
-  border: black solid 1px;
-  width:90px;
-  padding:0px;
-  height:20px;
-}
-
-.dining-menus-td-description{
-    vertical-align: top;
-    border: black solid 1px;
+  /*border: black solid 1px;*/
+  text-align: justify;
 }
 
 .dining-menu-meal{
+  border: black solid 0.2px;
+  padding:10px;
+  font-size: 1em;
   font-weight: bold;
-  height:50px;
-  padding:0;
-  margin:0;
-
+  height:10px;
+  padding:0px 10px;
 }
+
+.dining-menus-td-description{
+    padding: 10px 15px;
+    vertical-align: top;
+    font-size: 0.8em;
+    text-align: justify;
+    /*border: black solid 0.2px;*/
+}
+
 
 /* Activities page styling*/
 
