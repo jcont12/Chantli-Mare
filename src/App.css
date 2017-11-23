@@ -46,6 +46,7 @@ nav {
   width: 100%;
   overflow: hidden;
   position:relative;
+  font-size: 18px;
 }
 
 .crop img {
@@ -63,13 +64,12 @@ nav {
 }
 
 .home-cover {
-  margin-top: -45.5em;
+  margin-top: -39em;
 }
 
 .hotel-cover {
   filter: blur(0.3px);
-  height:60em;
-  margin-top: -32em;
+  margin-top: -30em;
 }
 
 .dining-cover {
@@ -77,11 +77,11 @@ nav {
 }
 
 .activities-cover {
-  margin-top: -25em;
+  margin-top: -21em;
 }
 
 .gallery-cover {
-  margin-top: -25em;
+  margin-top: -20em;
 }
 
 .testimonials-cover {
@@ -89,14 +89,13 @@ nav {
 }
 
 .contact-cover {
-  margin-top: -35em;
+  margin-top: -28em;
 }
 
 .h1-container{
     background-color: #630404;
     margin: 5px auto 0px;
     padding:5px;
-
 }
 
 h1 {
@@ -289,6 +288,7 @@ div #dining-greg-p{
   margin: auto;
   line-height: 2em;
   width: 40%;
+  text-align: justify;
   font-weight: lighter;
   margin-bottom: 100px;
   margin-left: 30px;
@@ -306,7 +306,7 @@ div #dining-menu-background{
   background-color:#ded9d9;
   width:80%;
   height: 800px;
-  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.5)
+  box-shadow: 0px 50px 150px rgba(0, 0, 0, 1.5)
 }
 
 #background1{
@@ -316,7 +316,7 @@ div #dining-menu-background{
   height:90%;
   top: 5%;
   left:52%;
-  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.5)
+  box-shadow: 0px 10px 10px rgba(0, 0, 1, 0.2)
 }
 
 #background2{
@@ -326,17 +326,16 @@ div #dining-menu-background{
   top:5%;
   left:-10%;
   height:90%;
-  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.5)
-
+  box-shadow: 0px 10px 10px rgba(0, 0, 1, 0.2)
 }
 
 div #dining-menu-dinner{
-  border: solid black 1px;
+  /*border: solid black 1px;*/
   height:100%;
 }
 
 div #dining-menu-lunch{
-  border: solid black 1px;
+  /*border: solid black 1px;*/
   height:100%;
 }
 
@@ -351,7 +350,7 @@ h4 {
 .dining-table{
   border: black solid 1px;
   border-spacing:0px;
-  margin:auto;
+  margin: 15px auto;
   width:95%;
   text-align: justify;
   vertical-align: top;
@@ -422,10 +421,14 @@ div #activities-p{
 /* Gallery page styling*/
 
 #gallery{
+}
+
+#gallery-pictures{
   text-align: center;
 }
 
 .gallery-img{
+  text-align: center;
   width: 400px;
   height: 300px;
   display:inline-block;
@@ -454,7 +457,6 @@ div #activities-p{
 
 
 .testimonials-reviews-td-testimonial{
-
   vertical-align: bottom;
   padding: 0px 50px 20px 50px;
   width: 1000px;
@@ -498,7 +500,6 @@ input{
 #message{
 width: 600px;
 height:200px;
-
 }
 
 #contact-info{

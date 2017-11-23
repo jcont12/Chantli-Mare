@@ -20,7 +20,6 @@ class App extends Component {
       return (
         <Router>
         <div id='App'>
-          <CoverImage />
           <Route exact path='/' component={Home} />
           <Route exact path='/Hotel' component={Hotel} />
           <Route exact path='/Dining' component={Dining} />
