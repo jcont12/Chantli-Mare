@@ -11,7 +11,7 @@ class Header extends Component {
     return (
       <header>
         <nav id="menu-options">
-          <img id="logo" src={require("../../images/logo.png")} alt="Chantli-Mare-logo" />
+          <Link to="/Home"><img id="logo" src={require("../../images/logo.png")} alt="Chantli-Mare-logo" /></Link>
           <Link to="/" className="nav-options" onClick={this.props.triggerHome}> HOME </Link>
           <Link to="/Hotel" className="nav-options" onClick={this.props.triggerHotel}> HOTEL </Link>
           <Link to="/Dining" className="nav-options" onClick={this.props.triggerDining}> DINING </Link>
