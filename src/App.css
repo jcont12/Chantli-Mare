@@ -169,6 +169,11 @@ div #home-gallery-intro{
   margin-bottom: 50px;
   width: 20%;
   display: inline-block;
+  vertical-align: top;
+}
+
+.home-picture{
+  width:40%;
 }
 
 div #juicebox-container{
@@ -182,7 +187,6 @@ div #juicebox-container{
 div #hotel{
   font-family: proxima-nova;
   font-weight: lighter;
-  font-size: 18px;
   line-height: 25px;
 }
 
@@ -200,6 +204,7 @@ div #hotel-history-p{
   width: 40%;
   padding-top: 70px;
   margin-left: 30px;
+  font-size: 18px;
 }
 
 #hotel-history-img{
@@ -265,7 +270,6 @@ div #hotel-accomodations{
 div #dining{
   font-family: proxima-nova;
   font-weight: lighter;
-  font-size: 18px;
   line-height: 25px;
 }
 
@@ -292,6 +296,7 @@ div #dining-greg-p{
   font-weight: lighter;
   margin-bottom: 100px;
   margin-left: 30px;
+  font-size: 18px;
 }
 
 div #dining-menu-background{
@@ -375,6 +380,7 @@ h4 {
     vertical-align: top;
     font-size: 0.8em;
     text-align: justify;
+    font-size: 13px;
     /*border: black solid 0.2px;*/
 }
 
@@ -440,7 +446,6 @@ div #activities-p{
 #testimonials{
   font-family: proxima-nova;
   font-weight: lighter;
-  font-size: 18px;
   line-height: 25px;
 }
 
@@ -474,7 +479,6 @@ div #activities-p{
 #contact{
   font-family: proxima nova;
   font-weight: lighter;
-  font-size: 18px;
   line-height: 25px;
 }
 
