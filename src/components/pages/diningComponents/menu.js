@@ -83,6 +83,7 @@ class Menu extends Component{
               </div>
             </div>
             <div id="dining-menu-dessert">
+            <div id="background3">
               <h2>Desserts</h2>
               <table className="dining-table">
                 <tr className="dining-dinner-tr">
@@ -98,6 +99,7 @@ class Menu extends Component{
                   <td className="dining-menu-meal">Banana Foster au Rum</td>
                 </tr>
               </table>
+              </div>
             </div>
         </div>
         <div id="dining-menu-background">

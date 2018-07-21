@@ -334,6 +334,17 @@ div #dining-menu-background{
   box-shadow: 0px 10px 10px rgba(0, 0, 1, 0.2)
 }
 
+#background3{
+  position:absolute;
+  background-color:white;
+  width:60%;
+  top:75%;
+  left:24%;
+  bottom:5%;
+  height:25%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 1, 0.2)
+}
+
 div #dining-menu-dinner{
   /*border: solid black 1px;*/
   height:100%;
