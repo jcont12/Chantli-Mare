@@ -43,21 +43,6 @@ class Menu extends Component{
                   <td className="dining-menus-td-description">Top grade Sushi Tuna seared rare and served with a Miso, Green, Onion and Sake Cream Sauce, Vegetable Stir Fry and Jasmin Rice</td>
                 </tr>
               </table>
-              <h4>Desserts</h4>
-              <table className="dining-table">
-                <tr className="dining-dinner-tr">
-                  <td className="dining-menu-meal">Vanilla Ice Cream Sundae</td>
-                  <td className="dining-menu-meal">Creme Brulee of the day</td>
-                </tr>
-                <tr className="dining-dinner-tr">
-                  <td className="dining-menus-td-description">Topped with berries</td>
-                  <td className="dining-menus-td-description">Ask your waiter</td>
-                </tr>
-                <tr className="dining-dinner-tr">
-                  <td className="dining-menu-meal">Chocolate Cake</td>
-                  <td className="dining-menu-meal">Banana Foster au Rum</td>
-                </tr>
-              </table>
             </div>
             </div>
             <div id="background2">
@@ -94,29 +79,29 @@ class Menu extends Component{
                 <tr>
                   <td className="dining-menus-td-description">Served with Gorgonzola, White Wine, Cream, Tomatoes, Sweet Pepper, Spinach, and a touch of Chile</td>
                 </tr>
-                </table>
-                <h4>Desserts</h4>
-                <table className="dining-table">
-                  <tr className="dining-dinner-tr">
-                    <td className="dining-menu-meal">Vanilla Ice Cream Sundae</td>
-                    <td className="dining-menu-meal">Creme Brulee of the day</td>
-                  </tr>
-                  <tr className="dining-dinner-tr">
-                    <td className="dining-menus-td-description">Topped with berries</td>
-                    <td className="dining-menus-td-description">Ask your waiter</td>
-                  </tr>
-                  <tr className="dining-dinner-tr">
-                    <td className="dining-menu-meal">Chocolate Cake</td>
-                    <td className="dining-menu-meal">Banana Foster au Rum</td>
-                  </tr>
-                </table>
+              </table>
               </div>
+            </div>
+            <div id="dining-menu-dessert">
+              <h2>Desserts</h2>
+              <table className="dining-table">
+                <tr className="dining-dinner-tr">
+                  <td className="dining-menu-meal">Vanilla Ice Cream Sundae</td>
+                  <td className="dining-menu-meal">Creme Brulee of the day</td>
+                </tr>
+                <tr className="dining-dinner-tr">
+                  <td className="dining-menus-td-description">Topped with berries</td>
+                  <td className="dining-menus-td-description">Ask your waiter</td>
+                </tr>
+                <tr className="dining-dinner-tr">
+                  <td className="dining-menu-meal">Chocolate Cake</td>
+                  <td className="dining-menu-meal">Banana Foster au Rum</td>
+                </tr>
+              </table>
             </div>
         </div>
         <div id="dining-menu-background">
-
-
-          </div>
+        </div>
       </div>
       )
   }
