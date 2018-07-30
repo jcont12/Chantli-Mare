@@ -13,7 +13,7 @@ class Contact extends Component {
         <Header/>
         <div className="crop">
           <img className="contact-cover" src={require("../../images/Touch.jpg")} alt="Palm-trees" />
-          <h1 className="cover-title"> Contact </h1>
+          <h1 className="cover-title"> Contact & Reservations </h1>
         </div>
         <div className="h1-container">
           <h1> We would love to hear from you!</h1>

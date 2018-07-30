@@ -1,5 +1,5 @@
-1.- What is the best way of styling the app?? CSS or inline?
-
-2.- I had to select in CSS img instead of selecting .logo or #logo... why??
-
-3.- 
+1- Acaba pagina de contacto.
+2- Haz pagina en ingles y espaniol.
+3- Cambia pagina de menu por fotografias de menu.
+4- Redisenia la info de contacto.
+5- MVP

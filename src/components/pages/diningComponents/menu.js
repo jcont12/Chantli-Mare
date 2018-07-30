@@ -5,8 +5,8 @@ class Menu extends Component{
   render(){
     return(
       <div id="dining-menu">
-        <div id='background0'>
-            <div id="background1">
+        <div id='background-menu-0'>
+            <div id="background-menu-1">
             <div id="dining-menu-dinner">
               <h2>Dinner</h2>
               <table className="dining-table">
@@ -45,7 +45,7 @@ class Menu extends Component{
               </table>
             </div>
             </div>
-            <div id="background2">
+            <div id="background-menu-2">
             <div id="dining-menu-lunch">
               <h2>Lunch</h2>
               <table className="dining-table">

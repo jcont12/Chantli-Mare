@@ -18,7 +18,7 @@ class Header extends Component {
           <Link to="/Activities" className="nav-options" onClick={this.props.triggerActivities}> ACTIVITIES </Link>
           <Link to="/Gallery" className="nav-options" onClick={this.props.triggerGallery}> GALLERY </Link>
           <Link to="/Testimonials" className="nav-options" onClick={this.props.triggerTestimonials}> TESTIMONIALS </Link>
-          <Link to="/Contact" className="nav-options" onClick={this.props.triggerContact}> CONTACT </Link>
+          <Link to="/Contact" className="nav-options" onClick={this.props.triggerContact}> CONTACT & RESERVATIONS </Link>
         </nav>
       </header>
     );
