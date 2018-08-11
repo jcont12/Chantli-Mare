@@ -15,12 +15,19 @@ import {
   Link
 } from 'react-router-dom';
 
+var lang = true;
 class App extends Component {
+  constructor(props){
+  super(props);
+  this.language = 'English';
+}
+
   render () {
+    if(this.language == 'English') {
       return (
         <Router>
         <div id='App'>
-          <Route exact path='/' component={Home} />
+          <Route exact path='/' component={Home} props={this.language} />
           <Route exact path='/Hotel' component={Hotel} />
           <Route exact path='/Dining' component={Dining} />
           <Route exact path='/Activities' component={Activities} />
@@ -30,6 +37,7 @@ class App extends Component {
           </div>
         </Router>
       )
+    }
     }
   }
 

@@ -4,7 +4,7 @@ import '../../../App.css';
 class ContactInfo extends Component {
   render() {
     return (
-      <div class="background-contact-info">
+      <div id="background-contact-info">
         <div id="contact-info">
           <h3>REACH US</h3>
           <p><b>Address:<br/></b>Camino a Boca de Iguanas Km 2, Jalisco, Mexico</p>

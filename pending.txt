@@ -1,5 +1,6 @@
-1- Acaba pagina de contacto.
-2- Haz pagina en ingles y espaniol.
-3- Cambia pagina de menu por fotografias de menu.
-4- Redisenia la info de contacto.
-5- MVP
+MVP:
+- Cambia la pagina del menu
+- Haz pagina en ingles y espaniol.
+
+Extras:
+Agrega background a los elementos que hacen falta.
